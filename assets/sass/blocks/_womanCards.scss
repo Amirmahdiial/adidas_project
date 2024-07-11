@@ -1,0 +1,54 @@
+.cards {
+    margin-bottom: 100px;
+  &__title {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  &__item {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    transition: 5s;
+  }
+  &__title h3{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom:1px solid black ;
+  }
+  &__item__details h3{
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 13px;
+  }
+  &__item__details p{
+    margin-left: 9px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  &__item__details img{
+    height: 280px;
+  }
+  &__button{
+    max-width:270px ;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  button{
+    padding: 16px 42px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
